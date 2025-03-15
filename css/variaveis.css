@@ -1,0 +1,14 @@
+:root {
+   --background: #F4F5FB;
+   --background-secondary: #FFF;
+   --brand: #CA3884;
+   --brand-hover: #A52C6B;
+   --border: #D1D5DB;
+   --danger: #C93847;
+
+   --primary: #080B12;
+   --secondary: #374151;
+   --tertiary: #9CA3AF;
+
+   --font: 'Inter', sans-serif;
+}

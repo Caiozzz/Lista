@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+   <title>Lista Explorer</title>
+   <link rel="stylesheet" href="./css/variaveis.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <header>
+      <a href="" class="back">⇦ Voltar</a>
+      <h1 class="title">Compras da semana</h1>
+   </header>
+   <form action="">
+      <input type="text" name="item" placeholder="Adicione um novo item" class="input" id="input-item">
+      <input type="submit" value="Adicionar item" class="input" id="add-button">
+   </form>
+   <ul class="list" data-lista>
+      <!-- <li class="list-item">
+         <input type="checkbox" id="item1">
+         <label for="item1">Item 1</label>
+         <button class="item-delete"><img src="./assets/icon-delete.svg" alt=""></button>
+      </li>
+      <li class="list-item">
+         <input type="checkbox" id="item2">
+         <label for="item2">Item 2</label>
+         <button class="item-delete"><img src="./assets/icon-delete.svg" alt=""></button>
+      </li>
+      <li class="list-item">
+         <input type="checkbox" id="batata">
+         <label for="batata">Rebimboca da parafuseta</label>
+         <button class="item-delete"><img src="./assets/icon-delete.svg" alt=""></button>
+      </li> -->
+   </ul>
+   <span class="alert">
+      <img src="./assets/icon-warning.svg" alt="">
+      O item foi removido da lista
+      <button><img src="./assets/icon-close.svg" alt=""></button>
+   </span>
+</body>
+
+<script src="./main.js"></script>
+</html>
